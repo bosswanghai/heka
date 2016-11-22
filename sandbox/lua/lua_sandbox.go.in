@@ -60,7 +60,7 @@ remove_entries = {
 [''] = {'collectgarbage','coroutine','dofile','load','loadfile','loadstring','newproxy','print'},
 os = {'getenv','execute','exit','remove','rename','setlocale','tmpname'}
 },
-disable_modules = {io = 1}
+disable_modules = {io = 0}
 }`
 
 func extractLuaFieldName(wrapped string) (fn string, found bool) {
